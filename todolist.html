@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todolist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="todolist.js"></script>
+</head>
+
+<body>
+    <h1>To Do List</h1>
+    <div class="addtask">
+
+        <!-- <button id="addbutton" >Add task</button> -->
+        <button class="button-68" role="button" onclick="openform()">ADD TASK</button>
+    </div>
+
+    <div class="tble-main">
+        <table class="table1" id="table">
+            <thead>
+                <tr>
+
+                    <th class="th" id="name">Team member</th>
+                    <th class="th" id="Task">Task Description</th>
+                    <th class="th" id="Priority">Priority</th>
+                    <th class="th" id="Duedate">Duedate</th>
+                    <th class="th" id="Action">Action</th>
+                </tr>
+            </thead>
+            <tbody id="tbody" class="border">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="maindiv">
+       
+        <div class="form" id="hideform">
+           
+            <div class="font">
+                <i class="fa-solid fa-square-xmark" onclick="clears()"></i>
+            </div>
+            <div class="mainform">
+            <label for="" class="labels">Name:</label>
+            <input type="text" id="names"><br>
+            <label for="" class="labels">Task:</label>
+            <input type="text" id="tasks"><br>
+            <label for="" class="labels">priority:</label>
+            <select name="" id="prioritys">
+                
+                <option value="" class="selectpriority">select</option>
+                <option value="" class="high">High prioritys</option>
+                <option value="" class="medium">medium priority</option>
+                <option value="" class="low">low priority</option>
+            </select><br>
+            <label for="" class="labels">Date:</label>
+            <input type="date" id="dates"><br>
+            <div class="button3">
+                <button class="button2" onclick="addtask()">Add Task</button>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>

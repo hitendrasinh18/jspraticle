@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calcultor.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>calculator</h1>
+        </div>
+        
+        <input type="text" id="display">
+        <div class="row1">
+            <button style="color:red" onclick="clearscreen()">C</button>
+            <button style="color: green;" onclick="display('()')">()</button>
+            <button style="color: green;" onclick="display('%')">%</button>
+            <button onclick="display('/')">/</button>
+        </div>
+        <div class="row2">
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="display('*')">*</button>
+        </div>
+        <div class="row3">
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button onclick="display('-')">-</button>
+        </div>
+        <div class="row4">
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="display('+')">+</button>
+        </div>
+        <div class="row5">
+            <button onclick="display('+/-')">+/-</button>
+            <button onclick="display('0')">0</button>
+            <button onclick="display('.')">.</button>
+            <button style="background-color: green; color: white;" onclick="slove()">=</button>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

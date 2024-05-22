@@ -1,0 +1,53 @@
+
+.name{
+    
+   text-align: center;
+   background-color: blue
+}
+.name1{
+    text-align: center;
+}
+.total{
+    text-align: center;
+}
+.income{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    text-align: center;
+    
+    
+}
+.history{
+    text-align: center;
+}
+.main{
+    border: 2px solid black;
+}
+
+.Transaction{
+    text-align: center;
+}
+.text ,.amount,.ab {
+    display: flex;
+    justify-content: center;
+}
+.a{
+    margin: 2px;
+    padding: 3px;
+}
+.b{
+    margin: 2px;
+    padding: 3px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#hist{
+    /* display: flex; */
+    text-align: center;
+    list-style: none;
+}
